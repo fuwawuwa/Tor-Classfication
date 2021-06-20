@@ -1,0 +1,45 @@
+NoDef
+https://colab.research.google.com/drive/1KB7HD6HZpxUhtSQZ6C689TMsnXKVV75r?usp=sharing
+https://wandb.ai/fuwafuwa/NoDef?workspace=user-fuwafuwa
+Epoch    11: reducing learning rate of group 0 to 3.1623e-04.
+Epoch    17: reducing learning rate of group 0 to 1.0000e-04.
+Epoch    23: reducing learning rate of group 0 to 3.1623e-05.
+Epoch    29: reducing learning rate of group 0 to 1.0000e-05.
+early stop!
+best model epoch:26 dev_acc:0.9860
+
+Data dimensions:
+X: Testing data's shape :  torch.Size([9500, 1, 5005])
+y: Testing data's shape :  torch.Size([9500])
+test acc 0.9857
+
+WTFPAD
+https://colab.research.google.com/drive/1EEkBu8bpdccZO9FT3Kn9B1nMIG4yKYHa?usp=sharing
+https://wandb.ai/fuwafuwa/WTFPAD?workspace=user-fuwafuwa
+Epoch    22: reducing learning rate of group 0 to 3.1623e-04.
+Epoch    28: reducing learning rate of group 0 to 1.0000e-04.
+Epoch    32: reducing learning rate of group 0 to 3.1623e-05.
+Epoch    38: reducing learning rate of group 0 to 1.0000e-05.
+early stop!
+best model epoch:43 dev_acc:0.9301
+
+Data dimensions:
+X: Testing data's shape :  torch.Size([9500, 1, 5005])
+y: Testing data's shape :  torch.Size([9500])
+test acc 0.9301
+
+WalkieTalkie
+https://colab.research.google.com/drive/1BYpKkahUfhWvyU7xeHzwPM0i5GFC69lK?usp=sharing
+https://wandb.ai/fuwafuwa/WalkieTalkie?workspace=user-fuwafuwa
+Epoch    14: reducing learning rate of group 0 to 3.1623e-04.
+Epoch    18: reducing learning rate of group 0 to 1.0000e-04.
+Epoch    21: reducing learning rate of group 0 to 3.1623e-05.
+Epoch    26: reducing learning rate of group 0 to 1.0000e-05.
+early stop!
+best model epoch:23 dev_acc:0.4974
+
+Data dimensions:
+X: Testing data's shape :  torch.Size([5000, 1, 5005])
+y: Testing data's shape :  torch.Size([5000])
+top1-test acc 0.4958
+top2-test acc 0.9918
